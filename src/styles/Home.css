@@ -1,0 +1,117 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #be95c4;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: #ac80a0; */
+    background-color: #be95c4;
+    color: #f0f0f0;
+  }
+  
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color: #6d597a;
+    height: 15px;
+    
+  }
+  .about h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color: #6d597a;
+    height: 15px;
+    margin-top: 3%;
+  }
+  
+  .about .prompt {
+    margin-top: 5%;
+    width: 40%;
+    font-size: 20px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+  .skills {
+    
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    margin-top : 2%;
+    font-size : 70px;
+    color: #be95c4;
+    font-weight: 600;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+
+  .skills .list h2{
+    font-size : 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color : #be95c4;
+  }
+
+  .skills .item{
+    padding-top : 7%;
+    padding-bottom: 5%;
+  }
+  
+  .list span {
+    font-size: 20px;
+    color : #6d597a;
+  }
+  
+  .link-menu{
+    text-decoration: none;
+  }
+ 
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 30px;
+      margin-bottom: 3%;
+    }
+
+    .about h3 {
+      font-size: 30px;
+    }
+  
+    .about .prompt {
+      margin-top: 20px;
+      font-size: 15px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
