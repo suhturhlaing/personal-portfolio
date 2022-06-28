@@ -25,6 +25,11 @@
   place-items: center;
 }
 
+#currentSection{
+  color:  #6d597a !important;
+  font-weight: bold;
+} 
+
 /* MENU ITEM STYLING */
 
 .projectItem {

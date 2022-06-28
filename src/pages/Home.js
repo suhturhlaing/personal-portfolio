@@ -10,7 +10,7 @@ function Home() {
     window.open("https://www.linkedin.com/in/su-htur-hlaing-228659241/");
   }
   const routeEmail = (e) =>{ 
-    window.location.href = "mailto:suhturhlaing271098@gmail.com";
+    window.open ( "mailto:suhturhlaing271098@gmail.com");
     e.preventDefault();
   }
   const routeGitHub = () =>{ 
